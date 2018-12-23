@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">DSA PflanzenApp</string>
+
+    <string-array name="regions">
+        <item>Nordaventurien</item>
+        <item>Orkland</item>
+        <item>Bornland</item>
+        <item>Thorwal</item>
+        <item>Svelltland</item>
+        <item>Elfenland</item>
+        <item>Noerdliches_Mittelreich</item>
+        <item>Westliches_Mittelreich</item>
+        <item>Suedliches_Mittelreich</item>
+        <item>Oestliches_Mittelreich</item>
+        <item>Maraskan</item>
+        <item>Tulamidenlande</item>
+        <item>Horasreich</item>
+        <item>Khom</item>
+        <item>Al_Anfa</item>
+        <item>Waldinseln</item>
+    </string-array>
+    <string-array name="territories">
+        <item>Eis</item>
+        <item>Wueste</item>
+        <item>Gebirge</item>
+        <item>Hochland</item>
+        <item>Steppe</item>
+        <item>Grasland</item>
+        <item>Flussufer</item>
+        <item>Kueste</item>
+        <item>Flussauen</item>
+        <item>Sumpf</item>
+        <item>Regenwald</item>
+        <item>Wald</item>
+        <item>Waldrand</item>
+    </string-array>
+    <string-array name="months">
+        <item>Praios</item>
+        <item>Rondra</item>
+        <item>Efferd</item>
+        <item>Travia</item>
+        <item>Boron</item>
+        <item>Hesinde</item>
+        <item>Firun</item>
+        <item>Tsa</item>
+        <item>Phex</item>
+        <item>Peraine</item>
+        <item>Ingerimm</item>
+        <item>Rahja</item>
+    </string-array>
+</resources>
