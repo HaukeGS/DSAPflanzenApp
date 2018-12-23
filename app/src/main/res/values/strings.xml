@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">DSA PflanzenApp</string>
+    <string name="ernte">Ernte</string>
+    <string name="landschaften">Landschaften</string>
+    <string name="gebiete">Gebiete</string>
 
     <string-array name="regions">
         <item>Nordaventurien</item>

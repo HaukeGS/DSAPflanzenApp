@@ -9,53 +9,71 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="374dp"
-        android:layout_height="550dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="20dp" />
 
         <Button
             android:id="@+id/btnRegions"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Gebiete" />
+            android:text="@string/gebiete" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="20dp" />
 
         <Button
             android:id="@+id/btnTerritory"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Landschaften" />
+            android:text="@string/landschaften" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="20dp" />
 
         <Button
             android:id="@+id/btnMonths"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ernte" />
+            android:text="@string/ernte" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="40dp" />
+            android:layout_height="20dp" />
 
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
         </ListView>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
     </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
 </android.support.constraint.ConstraintLayout>

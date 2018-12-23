@@ -25,16 +25,17 @@ public class Database {
 
     private void fillDatabase() {
         String input =
-                "Alraune;Nordaventurien,Orkland,Bornland,Thorwal,Svelltland,Elfenland,Noerdliches_Mittelreich,Westliches_Mittelreich,Suedliches_Mittelreich,Tulamidenlande;Wald,Waldrand,Grasland;all\n" +
-                "Alveranie;all;all;all\n" +
-                "Arganstrauch;Al_Anfa,Waldinseln;Regenwald,Sumpf,Wald,Waldrand;all\n" +
-                "Atan-Kifer;Bornland;Gebirge;all\n" +
-                "Atmon;Tulamidenlande,Khom;Steppe,Hochland,Sumpf,Flussauen;Peraine\n" +
-                "Axorda-Baum;Maraskan;Regenwald,Gebirge;all\n" +
-                "Basilamine;Orkland;Wald,Waldrand;all\n" +
-                "Belmart;Nordaventurien,Orkland,Bornland,Thorwal,Svelltland,Elfenland,Noerdliches_Mittelreich,Westliches_Mittelreich,Suedliches_Mittelreich,Oestliches_Mittelreich,Tulamidenlande;Wald,Waldrand;Peraine,Ingerimm,Rahja,Praios,Rondra,Efferd,Travia,Boron\n" +
-                "Blutblatt;all;all;all\n" +
-                "Boronie;Westliches_Mittelreich,Suedliches_Mittelreich,Oestliches_Mittelreich,Tulamidenlande,Horasreich,Khom,Al_Anfa,Waldinseln;Regenwald,Grasland;all";
+                "Alraune (Nutzpflanze);Nordaventurien,Orkland,Bornland,Thorwal,Svelltland,Elfenland,Noerdliches_Mittelreich,Westliches_Mittelreich,Suedliches_Mittelreich,Tulamidenlande;Wald,Waldrand,Grasland;all\n" +
+                "Alveranie (Übernatürliche Pflanze);all;all;all\n" +
+                "Arganstrauch (Heilpflanze);Al_Anfa,Waldinseln;Regenwald,Sumpf,Wald,Waldrand;all\n" +
+                "Atan-Kifer (Heilpflanze);Bornland;Gebirge;all\n" +
+                "Atmon (Nutzpflanze);Tulamidenlande,Khom;Steppe,Hochland,Sumpf,Flussauen;Peraine\n" +
+                "Axorda-Baum (Heilpflanze);Maraskan;Regenwald,Gebirge;all\n" +
+                "Basilamine (Gefährliche Pflanze);Orkland;Wald,Waldrand;all\n" +
+                "Belmart (Heilpflanze);Nordaventurien,Orkland,Bornland,Thorwal,Svelltland,Elfenland,Noerdliches_Mittelreich,Westliches_Mittelreich,Suedliches_Mittelreich,Oestliches_Mittelreich,Tulamidenlande;Wald,Waldrand;Peraine,Ingerimm,Rahja,Praios,Rondra,Efferd,Travia,Boron\n" +
+                "Blutblatt (Nutzpflanze);all;all;all\n" +
+                "Boronie (Übernatürliche Pflanze);Westliches_Mittelreich,Suedliches_Mittelreich,Oestliches_Mittelreich,Tulamidenlande,Horasreich,Khom,Al_Anfa,Waldinseln;Regenwald,Grasland;all\n" +
+                "Boronsschlinge (Gefährliche Pflanze);Westliches_Mittelreich,Oestliches_Mittelreich,Suedliches_Mittelreich,Tulamidenlande,Horasreich,Al_Anfa,Waldinseln;Wald,Regenwald;all\n";
         plants = new ArrayList<>();
         Scanner scanner = new Scanner(input);
         while (scanner.hasNextLine()) {
